@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>
+
+    </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/gridview.css" rel="stylesheet" />
+    <link href="css/CustomStyle.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <form method="post" action="WaterLevel.aspx" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                value="FUpHGxbJ3vp46dIcAQ2hgD+yHWJgdn/sJ5GPfwrLfHVNAKp9ob33hzKhq/lHBbH1LjTXDtH4SVwx7Pq6BjMVRRRj3ZfpudvhdCU9C6gGt9tFtrVaI6FKoXqMehLi4P+hd2H6ZEKy/9xMg/DU8ekAWve4dEw/Wmxo3wHTwsB5CCbdLkLgDp1GGg7kM8W4K75DcdaQZnM/GYSCtPRlXprQsyiBcRxwPS0cZOG3IhyKscOvo1s4gaPRwohZwNs58AqBIc8uI40072N6pzdv5UF/GQF8a5tqUEzD2J2h8UrNbgiuZZGYp8zHgkXCbupHSR78bRbOJ/PGRzG5+3Me9CWLpzt0E9HcHi6hzLFvD/zTEq2tsWWCXMjvMQ0AktPKsrbiwBAfdjXVcRU71fv7VSSwvI2ykTNsg7h/wgR5IoxqYf3RCpNmAE5/bBBTVWD4XQ1BQigtrmHq8gMTD7Xuc9wJU0nhSXLvKmT8dF2OxBpNVVpLeroGWe8d99MCgCIsIMoNkalrnZBDoGDHNGf3I3bs1VhZrORu2Zxd5Lf4jRiBQ+gK5KfBCmT+m8py4Upux3OwAjY5jPxvV61XvfWNIiLS6f0ccdaRuyjBmeHgvT9T6GVLqMDsafGtmT5O54an7wf4brhJSdPCd8y57JEFAPsPcm3v11CosOsRQXyrA6kj0bcZU3VdoCOq7Sy0Jjv8XINfMkinfWDJrhg73XWRcp+r+oUs+JPTfSj6K4Eo3bwahJaNXvREi2JzQ/9GaLy/dm0I+YggZob9d8Rz/xEfQ3nzPlYTw+TVo400Uqw/mgE78sx5z8EZZWW4GDNXhm4h8QvLcY2DeD3UfnPLz/P2MzWdNSrBV9wQCdCO1uHpA41BP6l/APAQw2RZvM9uRYQiXQoQ4p/VhcWQtylsNZjFDmTwDuG3r2BVpXKlivHhNxX6pvUH/PdIjxXElcGtPmV94mzgo3aTAemoFrdw662WvCe78dEZiolWpUdhVgzW6U5pwNRdsFBTbGVllj1zfIy0hHCPJiOioYiJ9Aiydq6S234lDOj4VYXjVeXP+EIx669FgqJoj4fhLxjIPEXVSe31bSEqNPnOHJrYVZ9cWiOlKdmC13u7Zu0aCTJwEmzMId1cZjQ84WRhz2eBbyGPDkGbNBa6fJ7R5ew+PZM+UwH3lzpk+zCekOgWDJjDgQfMm/1EV+m+dUVW/+7fPR3N9Af4LTemibgVoWYUpN+9j+qHNaZA2Dl/QCLXyxweBvp1PD5BvzY=" />
+        </div>
+
+        <div>
+            <table style="width: 100%">
+                <tr>
+                    <td>
+                        <div>
+                            <table class="table table-striped table-bordered table-hover tab" cellspacing="0"
+                                rules="all" border="1" id="GridView1"
+                                style="font-size:Small;width:100%;border-collapse:collapse;">
+                                <tr style="color:White;background-color:#002F6C;font-weight:bold;">
+                                    <th colspan="3" style="font-weight:bold;">Water Level Statistics through Sensor</th>
+                                </tr>
+                                <tr style="color:White;background-color:#002F6C;font-weight:bold;">
+                                    <th scope="col">Location</th>
+                                    <th scope="col">Water Level (Feet)</th>
+                                    <th scope="col">Date &amp; Time</th>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">AJWA DAM</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">213.03</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:24:14</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">AKOTA BRIDGE</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">6.97</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:23:59</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">ASOJ FEEDER</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">0.36</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:24:12</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">BAHUCHARAJI BRIDGE</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">1.19</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:23:58</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">KALA GHODA</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">4.16</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:24:05</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">MANGAL PANDEY BRIDGE</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">3.97</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:24:13</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">MUJMAUDA BRIDGE</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">3.93</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:23:56</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">SAMA HARNI BRIDGE</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">3.61</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:24:10</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="width:30%;">VADSAR BRIDGE</td>
+                                    <td style="width:30%;">
+                                        <center>
+                                            <table border="0">
+                                                <tr>
+                                                    <td style="text-align:right; width:70px">1.47</td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                    <td align="center" style="width:40%;">14-11-2022 20:23:50</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>

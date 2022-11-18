@@ -1,0 +1,37 @@
+.imgl,.imgr
+{border:1px solid #CCCCCC;padding:5px;color:#666666;background-color:#F7F7F7}.righttop
+{float:right;margin:0 0 8px 8px;font-size:18px;color:#000000}.imgl
+{float:left;margin:0 8px 8px 0;clear:left}.imgr
+{float:right;margin:0 0 8px 8px;clear:right}.clear
+{clear:both}
+br.clear
+{clear:both;margin-top:-15px}
+div.wrapper
+{display:block;width:100%;margin:0;text-align:left}.col1
+{color:#FFFFFF;background-color:#294E79}.col2
+{color:#666666;background-color:#F5F5F5}.col2 a
+{color:#294E79;background-color:#F5F5F5}.col3,.col4
+{color:#666666;background-color:#FFFFFF}.col5
+{color:#FFFFFF;background-color:#1C3451}
+#breadcrumb,#container
+{position:relative;margin:0 auto 0;display:block;width:960px}
+#container
+{padding:40px 0}
+#container h1,#container h2,#container h3,#container h4,#container h5,#container h6
+{margin:0 0 15px 0;padding:0 0 15px 0;line-height:normal;font-weight:normal;font-size:20px;border-bottom:1px dashed #666666}
+#content
+{display:block;float:left;width:660px}
+#column
+{display:block;float:right;width:280px}
+table
+{width:100%;border-collapse:collapse;table-layout:auto;vertical-align:top;margin-bottom:15px;border:1px solid #CCCCCC}
+table tbody td
+{vertical-align:top;border-collapse:collapse;border-left:1px solid #CCCCCC;border-right:1px solid #CCCCCC}
+table tbody td
+{padding:2px;border-collapse:collapse}
+table tbody tr.light
+{color:#666666;background-color:#F7F7F7}
+table tbody tr.dark
+{color:#666666;background-color:#E8E8E8}.hidden{display:none}
+#container_Recruitment
+{position:relative;margin:0 auto 0;display:block;width:960px;padding:10px 0;top:0px;left:3px}
